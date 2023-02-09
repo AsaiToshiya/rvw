@@ -1,29 +1,31 @@
-English | [日本語](./README-ja.md)
+[English](./README.md) | 日本語
 
 # rvw
 
-`rvw` is a command to review code by AI.
+`rvw` は、AI でコード レビューするコマンドです。
 
 ```
 $ rvw -a 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 index.js
 
-// This code looks good. Some possible areas of improvement might include changing the error handling logic to better fit your use case and adding comments to explain the code and make it easier to read.
+// このコードレビューは、`OpenAIApi`を使用してOpenAI APIを呼び出すNode.jsプログラムをレビューするものです。このコードは、OpenAI APIキーを使用してプロンプトを提示し、OpenAI APIからテキスト補完を取得します。
+
+// コード全体として、構造的にはかなりきれいになっています。コードの読みやすさが向上し、関数の再利用性もあります。ただし、エラーハンドリングが不十分です。OpenAI APIが例外をスローする場合、ステータスコードとエラーコードを表示するだけ
 
 ```
 
-## Install
+## インストール
 
 ```
 npm i -g @asaitoshiya/rvw
 ```
 
-## Usage
+## 使い方
 
 ```
 rvw (-a|--api-key) <openai-api-key> <file>
 ```
 
-## License
+## ライセンス
 
     Copyright (C) 2023  Asai Toshiya
 

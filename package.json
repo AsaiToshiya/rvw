@@ -1,27 +1,30 @@
 {
-  "name": "node-boilerplate",
+  "name": "@asaitoshiya/rvw",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "A command to review code by AI",
   "exports": "./index.js",
   "bin": {
-    "node-boilerplate": "./index.js"
+    "rvw": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AsaiToshiya/node-boilerplate.git"
+    "url": "git+https://github.com/AsaiToshiya/rvw.git"
   },
   "keywords": [],
   "author": "Asai Toshiya <to.asai.60@gmail.com> (https://asaitoshiya.com/)",
-  "license": "MIT",
+  "license": "GPL-3",
   "bugs": {
-    "url": "https://github.com/AsaiToshiya/node-boilerplate/issues"
+    "url": "https://github.com/AsaiToshiya/rvw/issues"
   },
-  "homepage": "https://github.com/AsaiToshiya/node-boilerplate#readme",
+  "homepage": "https://github.com/AsaiToshiya/rvw#readme",
   "engines": {
     "node": ">=14.16"
+  },
+  "dependencies": {
+    "openai": "^3.1.0"
   }
 }
